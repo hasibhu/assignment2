@@ -1,0 +1,555 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 240px;
+}
+
+.gamer-log{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.letter-g{
+   color:#FF42A5;
+    background-clip: text;
+}
+.word-gamer{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;line-height: normal;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-follow-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700PX;
+    /* padding-top: 50px; */
+}
+.banner-content{
+    padding-left: 256px;
+    align-items: flex-start;
+    background-image: url(/images/group14.png) ;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    
+    
+}
+.banner-heading{
+    color: #0B0223;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+    
+}
+
+.banner-goat{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner-text{
+    margin-top: 20px;
+    padding-left: 16px;
+
+}
+
+.banner-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.sign-in-button{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background:  #FF42A5;
+}
+
+.go-rogue-button{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-image{
+
+    padding: 0px 80px 0px;
+    width: calc(100% - 80px);
+    overflow: auto;
+    /* width: auto; */
+    /* justify-content: center;
+    align-items: center;
+    /* width: 711px;
+    height: auto;
+    margin-top: 20px; */ */ */
+}
+
+
+/* style for we gamer section */
+
+.we{
+   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    
+}
+
+.we-text{
+    padding-right: 100px;
+}
+.we-gamer-heading{
+    display: flex;
+    justify-content: end;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-paragraph{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.know-more{
+    display: inline-flex;
+    /* padding-left: 500px; */
+    align-items: end;
+    gap: 10px;
+    border-radius: 48px;
+    height: 33px;
+    width: 110px;
+    background:  #FF42A5 ;
+
+}
+
+.small{
+    color: #534C64;
+    /* text-align: right; */
+    margin-left: 200px;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    padding-left: 200px;
+
+    }
+
+.normal{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    margin-left: 210px;
+
+}
+
+/* online games style  */
+
+.online-heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.online-heading{
+   margin-bottom: 2px;
+}
+
+.online-paragraph{
+    margin-top: 2px;
+}
+
+
+.online-games{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1px;
+}
+
+.online-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* work incomplete here */
+.img3{
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+
+
+/* section of the horse rider */
+.horser-rider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+    padding-top: 120px;
+    margin-bottom: 90px;
+}
+
+.play-instantly{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+
+.play-instantly-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.play-instantly-paragraph{
+    text-align: right;
+}
+
+.horse-rider-image {
+        width: 634.833px;
+        height: 650px;
+        flex-shrink: 0;
+}
+/* for image overlay */
+.parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+.image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #000000;
+      }
+.image2 {
+        position: absolute;
+        top: 400px;
+        left: -100px;
+        border: 1px solid #000000;
+      }
+
+
+/* section horse rider 2 */
+.horse-rider2-container{
+    display: flex;
+    gap: 250px;
+    margin-top: 270px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+ .horse-rider2 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+
+.img1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #000000;
+      }
+.img2 {
+        position: absolute;
+        top: 400px;
+        left: 480px;
+        border: 1px solid #000000;
+      }
+
+.horse-rider2-text{
+    padding-top: 170px;
+    
+}
+
+.play-instantly2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-instantly-color2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* style career section */
+
+.career{
+    margin-top: 270px;
+    padding-left: 150px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    
+
+}
+
+.career-text{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.career-heading{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+
+.career-paragraph{
+    
+    width: 570px;
+    height: 120px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.career-skills{
+    display: flex;
+    gap: 20px;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+}
+
+.see-all-position{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    color: #F948B2;
+    border: none;
+    font-weight: bold;
+
+}
+
+/* style games type section */
+
+.games-type{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.flex{
+    display: flex;
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    flex-shrink: 0;
+    /* padding-top: 50px; */
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* style footer section */
+
+.footer{
+    margin-top: 150px;
+    width: auto;
+    height: 436px;
+    flex-shrink: 0;
+    background: #0B0223;
+
+}
+
+.footer-1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.g-color{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 85px;
+}
+.amer-color{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+.footer-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.games-types-5{
+    color: #FFF;
+    text-align: center;
+    padding-top: 25px;
+}
