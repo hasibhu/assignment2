@@ -266,7 +266,7 @@ line-height: normal;
 
 
 /* section of the horse rider */
-.horser-rider{
+.horse-rider{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,7 +294,7 @@ line-height: normal;
     text-align: right;
 }
 
-.horse-rider-image {
+.horse-rider-image{
         width: 634.833px;
         height: 650px;
         flex-shrink: 0;
@@ -326,7 +326,6 @@ line-height: normal;
     margin-top: 270px;
     justify-content: center;
     text-align: center;
-
 }
 
  .horse-rider2 {
