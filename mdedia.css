@@ -9,5 +9,24 @@
         padding: 38px 240px;
     }
 
-    
+    .banner-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* height: 700PX; */
+        /* padding-top: 50px; */
+        flex-direction: column;
+        height: auto; 
+    }
+    .banner-content {
+        padding-left: 100px;
+        align-items: flex-start;
+        background-image: url(/images/group14.png);
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+    }
+    .banner-image{
+        width: auto;
+    }
 }
