@@ -1,5 +1,6 @@
 
 
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -20,12 +21,12 @@ nav{
 
 .word-gamer{
     color: #0B0223;
-font-family: Work Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
 
 .nav-list{
     display: flex;
@@ -318,7 +319,6 @@ line-height: normal;
         border: 1px solid #000000;
       }
 
-
 /* section horse rider 2 */
 .horse-rider2-container{
     display: flex;
@@ -326,7 +326,7 @@ line-height: normal;
     margin-top: 270px;
     justify-content: center;
     text-align: center;
-}
+    }
 
  .horse-rider2 {
         position: relative;
@@ -373,7 +373,7 @@ line-height: normal;
 
 .career{
     margin-top: 270px;
-    padding-left: 150px;
+    padding-left: 20px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     display: flex;
     
@@ -404,7 +404,7 @@ line-height: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-}
+    }
 
 .career-skills{
     display: flex;
@@ -415,7 +415,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: 40px;
-}
+    }
 
 .see-all-position{
     display: inline-flex;
@@ -428,7 +428,7 @@ line-height: 40px;
     border: none;
     font-weight: bold;
 
-}
+    }
 
 /* style games type section */
 
@@ -443,7 +443,7 @@ line-height: 40px;
     padding-right: 120px;
     padding-top: 50px;
     gap: 20px;
-}
+    }
 
 .flex{
     display: flex;
@@ -462,10 +462,7 @@ line-height: 40px;
     line-height: normal;
     justify-content: center;
     align-items: center;
-}
-
-
-
+    }
 
 /* style footer section */
 
@@ -549,3 +546,16 @@ line-height: 40px;
 }
 
 
+
+
+/*  */
+/* @media  screen and (max-width: 576px){ */
+    /* nav{ */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* padding: 38px 240px; */
+/*  */
+    /* } */
+/* } */

@@ -1,0 +1,13 @@
+
+
+@media  screen and (max-width: 576px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 38px 240px;
+    }
+
+    
+}
