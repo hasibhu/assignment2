@@ -19,7 +19,7 @@
         height: auto; 
     }
     .banner-content {
-        padding-left: 100px;
+        padding-left: 80px;
         align-items: flex-start;
         background-image: url(/images/group14.png);
         background-repeat: no-repeat;
@@ -27,8 +27,8 @@
         height: auto;
     }
     .banner-image{
-        width: 316px;
+        width: 216px;
         height: auto;
-        padding-left: 1px;
+        padding-left: 10px;
     }
 }
