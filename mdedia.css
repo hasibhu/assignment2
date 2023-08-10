@@ -27,6 +27,8 @@
         height: auto;
     }
     .banner-image{
-        width: auto;
+        width: 316px;
+        height: auto;
+        padding-left: 1px;
     }
 }
